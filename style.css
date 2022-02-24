@@ -2,12 +2,18 @@
   box-sizing: border-box;
 }
 
+html {
+  font-family: sans-serif;
+
+  background-color: #243447;
+}
+
 .grid {
   height: 400px;
-	width: 400px;
-	display:  flex;
-	flex-wrap: 	wrap;
-	background-color: grey;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #808d8e;
 }
 
 .grid div {
@@ -17,12 +23,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  color: #000;
+  font-size: larger;
+  border: 1px solid #333;
 }
 
 .checked {
-  background-color: red;
+  background-color: #f283b6;
 }
 
 .bomb {
-  background-color: orange;
+  /* background-color: orange; */
 }
